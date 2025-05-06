@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Design Technology Workshop Registration</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Design Technology Workshop</h1>
+    <p><strong>Date:</strong> 20 May 2025</p>
+    <p><strong>Venue:</strong> Noida City Centre, Pacific Mall</p>
+    <p><strong>Price:</strong> ₹200 per participant</p>
+
+    <h2>Register Now</h2>
+    <form action="submit_form.php" method="POST">
+      <label for="fullname">Full Name:</label>
+      <input type="text" id="fullname" name="fullname" required>
+
+      <label for="email">Email Address:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="phone">Phone Number:</label>
+      <input type="tel" id="phone" name="phone" required>
+
+      <label for="organization">Organization / School (Optional):</label>
+      <input type="text" id="organization" name="organization">
+
+      <label for="payment">Payment Confirmation (Transaction ID):</label>
+      <input type="text" id="payment" name="payment" required>
+
+      <input type="submit" value="Register">
+    </form>
+  </div>
+</body>
+</html>
